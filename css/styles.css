@@ -394,7 +394,7 @@ button {
   border-radius: 4px;
   padding: 12px 24px;
   transition: color var(--transition-dur-end-func),
-    background-color var(--transition-dur-end-func);
+    background-color var(--transition-dur-end-func), box-shadow var(--transition-dur-end-func);
 }
 .filter-btn:hover,
 .filter-btn:focus {
@@ -488,7 +488,7 @@ button {
   border: 1px solid var(--light-slate-color);
   border-radius: 4px;
   outline: transparent;
-  transition: fill var(--transition-dur-end-func);
+  transition: fill var(--transition-dur-end-func), border var(--transition-dur-end-func);
 }
 
 .customers-link:hover,
