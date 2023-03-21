@@ -358,7 +358,7 @@ button {
   height: 40px;
   border-radius: 50%;
   background-color: var(--iris-color);
-  transition: color var(--transition-dur-end-func);
+  transition: background-color var(--transition-dur-end-func);
 }
 
 .social-list-link:hover,
